@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.brand img{
+   height: 40px;
+   width: 40px;
+}
+.nav{
+    height: 60px;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 15px;
+}
+.menu{
+    height: 70px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-weight: 550;
+
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+border-bottom: 2px solid powderblue;
+height: 30px;
+}
+.button{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(99, 6, 162);
+  display: grid;
+}
+.hide{
+  display: none;
+}
+.view{
+  display: none;
+}
+.lin{
+  height: 0.3px;
+  width: 100%;
+  background-color: black;
+}
+.container-floud{
+  height: 80vh;
+  width: 97%;
+  margin: auto;
+  margin-top: 20px;
+}
+.carouselExample{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+.popularCourse{
+ 
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+.column{
+  padding: 2px;
+  margin: auto;
+}
+.card{
+  margin: auto;
+}
+.h2{
+  height: 125px;
+  width: 150px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 8px;
+  justify-content: center;
+  font-weight: 550;
+}
+.LOGIN_REG{
+  justify-content: center;
+}
+.img-de {
+  width: 50px;
+  margin-left: 20px;
+  margin: auto;
+}
+.h2-2{
+  display: none;
+}
+.img-u-i-mobile{
+  display: none;
+}
+.footer{
+  height: 280px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.619);
+  box-shadow: rgb(99, 6, 162);
+  border-radius: 4px;
+  padding-top: 5px;
+ 
+}
+.box{
+  height: inherit;
+  width: 300px;
+ margin: 3px;
+ align-items: center;
+ text-align: center;
+ color: white;
+}
+.form{
+  height: 420px;
+  width: 300px;
+  background-color: antiquewhite;
+  display: grid;
+  padding: 8px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 7px;
+  justify-content: center;
+  color: rgb(4, 75, 75);
+}
+.form input{
+  border: none;
+  margin: 4px;
+  padding: 18px;
+  border-radius: 7px;
+}
+.formd{
+display: none;
+}
+.diplay{
+ display: none;
+}
+
+.diplayv{
+display: grid;
+padding: 4px;
+margin-top: 64px;
+justify-content: center;
+}
+.diplayv input{
+  margin: 5px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.back{
+  display:block;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 760px){
+  .nav{
+    height: 300px;
+    width:88%;
+    display: flex;
+    margin-top: -1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .brand img{
+  margin-top: 20px;
+  height: 50px;
+   width: 50px;
+ 
+  }
+  
+    .menu{
+    height: 300px;
+    width: 200px;
+    display: grid;
+    background-color: white;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: -280px;
+    display: none;
+  }
+  .menuv{
+    height: 300px;
+    width: 200px;
+    display: grid;
+    background-color: white;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 10;
+  }
+  .menuv a{
+   
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+   
+  }
+  .menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+   
+    
+  }
+  .view{
+    display: flex;
+    margin-top: 20px;
+    
+  }
+  .viewh{
+    display: flex;
+    margin-top: 20px;
+    display: none;
+  }
+  .hide{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    display: none;
+  }
+  .hide img{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+  }
+  .hidev{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+  }
+ 
+  .lin{
+    height: 0.5px;
+    width: 93%;
+    background-color: black;
+    position: absolute;
+    margin: auto;
+    margin-top: 75px;
+   
+  }
+  .container-floud{
+    margin-top: -220px;
+    height: 50vh;
+    width: 100%;
+    
+  }
+  .popularCourse{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    font-size: 12px;
+  }
+   .h2{
+   
+   }
+   .LOGIN_REG{
+    justify-content: center;
+ 
+  }
+  .img-de {
+    width: 50px;
+    margin-left: 20px;
+    margin: auto;
+  }
+  .form{
+    margin-top: -200px;
+  }
+  .diplayv{
+    margin-top: -200px;
+  }
+}
